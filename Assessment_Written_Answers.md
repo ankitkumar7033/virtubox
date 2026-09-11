@@ -1,14 +1,5 @@
 # Data Analyst Assessment — Written Answers
 
-Dataset: **Brazilian E-Commerce Public Dataset by Olist**
-Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-
-Run `olist_ecommerce_analysis.ipynb` first — Q1, Q3 (cleaning table), Q4, Q5, and Q6 are
-already drafted inside that notebook, with a few blanks for you to fill in using your
-actual numbers. This file covers the rest: Q2, Q7, Q10, and the presentation outline.
-
----
-
 ## Question 2 — Business Problem, Questions, Hypotheses
 
 **A. Business problem:**
@@ -89,10 +80,4 @@ already works with this dataset:
 
 ---
 
-## README / Methodology (for the Drive folder)
 
-1. Dataset: Olist Brazilian E-Commerce (Kaggle), 9 CSV files, ~100K orders.
-2. Tool: Python (Pandas, Matplotlib, Seaborn) in Google Colab — see `olist_ecommerce_analysis.ipynb`.
-3. Process: loaded all 9 tables → filtered to delivered orders → converted dates → removed duplicates → created calculated fields (delivery days, delay days) → merged tables → standardized category names → aggregated payments → flagged price outliers → analyzed by category, region, and time → identified insights and one surprising result.
-4. Outputs: processed CSV (for the "Processed Data" Google Sheet tab), charts (revenue by category, review score by delivery timeliness, monthly revenue trend, state-level stats), and this write-up.
-5. AI use: see Q10 above.
